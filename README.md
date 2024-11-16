@@ -1,50 +1,92 @@
-To-Do List App 
+**To-Do App**
 
-Overview 
-The To-Do List app is a simple and efficient task management tool that helps you stay organized and productive. With its user-friendly interface, you can easily add, update, and delete tasks to keep track of your daily, weekly, and monthly tasks. This README file provides detailed information on how to use the app effectively and highlights its key features.
+A simple and user-friendly To-Do application that helps users organize and manage their tasks efficiently.
 
-Features 
-1. Add tasks with descriptions and due dates.
-2. Organize tasks into four sections: "My Day," "Current Week," "Current Month," and "All Tasks."
-3. Mark tasks as completed or pending with checkboxes.
-4. Delete tasks with a simple click on the trash icon.
-5. Fetch and display user profile data from the "data.txt" file.
-6.  Sort tasks based on due dates in ascending order.
+**Table of Conent**
+- Features
+  
+- Installation
+  
+- Usage
+
+- Technologies Used
+
+- Folder Structure
+
+- Home Page(screen short)
 
 
-To do list before adding tasks 
 
-![Screenshot 2024-11-12 162751](https://github.com/user-attachments/assets/5d1811f8-3744-4b5b-8b5e-c870b490560b)
+**Features**
 
-To do list after adding tasks
+- Add new tasks with ease.
 
-![2nd](https://github.com/user-attachments/assets/2554285f-e2b4-4067-b21c-3641d3cc4f65)
+- Mark tasks as completed or pending.
 
-To do list Progrss Bar
+- Edit tasks to update their details.
 
-![image](https://github.com/user-attachments/assets/c7913173-f606-4bae-93cc-4dbdc6c45ee4)
+- Delete tasks that are no longer needed.
 
-To do list blastConfetti
+- Interactive and responsive UI for seamless usage.
 
-![Screenshot 2024-11-12 163545](https://github.com/user-attachments/assets/905e45c0-9e2d-4b0c-9a5c-de38810c71b2)
+**Installation**
 
-How to Use 
-Adding a Task: To add a new task, enter the task description and due date in the input fields provided. Press the "Add" button or press Enter to save the task to the list.
+- Node.js (v14 or higher)
 
-Sections: The app offers four sections: "My Day," "Current Week," "Current Month," and "All Tasks." Click on the respective section links to view tasks that match the criteria.
+- npm or yarn
 
-Checkbox: Each task has a checkbox beside it. Check the box to mark a task as completed. Uncheck it to mark it as pending.
 
-Delete Task: To delete a task, click on the trash icon beside the task. A confirmation popup will appear to confirm the deletion.
+**Usage**
 
-Search Function: You can search for specific tasks by typing keywords in the search box and pressing Enter. The app will filter and display tasks that match the search query and the section currently selected.
+- Add a new task by typing in the input box and clicking the Add button.
 
-Updating Profile: Once you load the page, you will be prompted to create the profile using name and email. This will be stored in local storage.
+- Mark a task as complete by clicking on the checkbox.
 
-Important Notes 
-Please ensure to fill both the task description and due date fields before adding a new task.
-Tasks are sorted based on due dates in ascending order.
-This app is completely responsive.
-For the app to work properly, you need to host it on a localhost or a server. Simply opening the index file as a web page won't provide the required functionality.
-Try it Online 💻
-You can try the To Do List application online by following this link.
+- Edit a task by clicking the edit icon next to it.
+
+- Delete a task by clicking the delete icon.
+
+
+**Technologies Used**
+
+- HTML
+- CSS
+- JavaScript
+
+**Folder Structure**
+
+To-Do-App/
+
+│
+
+├── src/
+
+│   ├── index.html         # Main HTML file
+
+│   ├── styles.css         # Styles for the app
+
+│   ├── app.js             # JavaScript logic for the app
+
+│   └── assets/            # Images or other assets
+
+│
+├── package.json           # Project metadata and dependencies
+
+└── README.md              # Project documentation
+
+
+**Home Page**
+
+
+![image](https://github.com/user-attachments/assets/2e8debc4-4db4-425b-9a93-c667002ffc77)
+
+
+**License**
+This project is open-source and available under the MIT License.
+
+
+
+
+
+
+
